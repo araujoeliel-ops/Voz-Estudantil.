@@ -1,0 +1,25 @@
+Recomendações de melhorias para o front-end — Voz Estudantil
+As três melhorias abaixo foram definidas considerando o estágio atual do projeto, os conhecimentos da equipe e o limite de uma ou duas aulas para implementação.
+
+As propostas priorizam mudanças pequenas, exclusivamente no front-end, sem depender de backend, banco de dados ou APIs.
+ID	Melhoria sugerida	Tela ou parte do front-end afetada	Problema atual	Fonte da ideia	Mudança visual ou de interação sugerida	Benefício para o usuário	Esforço estimado	Risco ou suposição
+M1	Aplicar identidade visual e melhorar a organização da tela de login	Tela inicial de login	O login foi desenvolvido em HTML, mas ainda não possui CSS aplicado, o que limita sua apresentação visual e organização.	S — informações sobre o estado atual do projeto.	Adicionar cores padronizadas, tipografia, espaçamentos, alinhamento dos campos, estilização dos botões e organização visual do formulário.	Facilita a leitura, melhora a aparência da aplicação e transmite maior clareza durante o acesso.	Baixo	Pressupõe que a equipe consiga aplicar propriedades básicas de CSS sem alterar a estrutura funcional existente.
+M2	Criar uma tela de orientações sobre como utilizar o sistema	Nova tela de apresentação ou página inicial após o login (protótipo visual)	Ainda não existe uma tela implementada que explique aos estudantes como apresentar reivindicações e utilizar as funcionalidades propostas.	HIPÓTESE — considerando as necessidades de orientação dos usuários em plataformas de participação estudantil.	Criar uma seção visual com instruções curtas, títulos e pequenos cartões explicativos sobre o funcionamento previsto do Voz Estudantil.	Ajuda os estudantes a compreenderem a finalidade da plataforma e como poderão utilizá-la.	Baixo	Pressupõe que uma página de orientações seja útil mesmo antes da implementação das funcionalidades principais.
+M3	Desenvolver uma apresentação visual diferenciada para os tipos de usuário	Tela de login, especialmente na seleção do tipo de usuário	Existe uma seleção demonstrativa do tipo de usuário, mas ainda não há uma diferenciação visual mais clara entre estudantes e administradores.	S e T1 — o sistema atual possui seleção de tipo de usuário; T1 apresenta diferenciação de permissões entre usuários.	Transformar a seleção em duas opções visuais identificáveis, com títulos e pequenas descrições: "Estudante" e "Administrador". Destacar visualmente a opção selecionada.	Facilita a identificação do perfil de acesso pretendido e torna a interação mais intuitiva.	Baixo	A diferenciação será apenas visual e demonstrativa, sem implementar permissões ou autenticação real.
+
+Justificativa da ordem de recomendação
+1º — M1: Identidade visual da tela de login
+
+É a melhoria mais recomendada porque atua diretamente em uma tela que já existe. A equipe pode utilizar conhecimentos básicos de CSS para obter um resultado perceptível em pouco tempo, sem precisar desenvolver novas funcionalidades.
+
+2º — M2: Tela de orientações
+
+É uma proposta que pode agregar valor à experiência dos estudantes, explicando a finalidade da plataforma. Também é relativamente simples de desenvolver, embora dependa da definição das instruções que serão apresentadas.
+
+3º — M3: Diferenciação visual dos tipos de usuário
+
+É uma melhoria pontual e de implementação simples. Entretanto, seu benefício é mais específico, pois a tela já possui uma seleção demonstrativa de usuário. A proposta consiste em aperfeiçoar sua apresentação, não em adicionar uma funcionalidade de autenticação.
+
+Observação: T1 foi utilizado somente como referência para a diferenciação entre perfis de usuários e para a organização das interfaces. Não foram atribuídas funcionalidades ou conclusões aos trabalhos T2 e T3, pois eles não foram pesquisados.
+
+As três propostas são independentes e consultivas. A escolha da melhoria que será implementada cabe à equipe Voz Estudantil, após avaliar o tempo disponível, a dificuldade técnica e a contribuição para o projeto.

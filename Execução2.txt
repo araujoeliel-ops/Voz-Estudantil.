@@ -1,0 +1,23 @@
+Recomendações de melhorias para o front-end — Voz Estudantil
+Com base nas informações fornecidas, foram identificadas três melhorias pequenas, considerando o estágio atual do projeto, os conhecimentos da equipe e o prazo de uma ou duas aulas.
+
+As propostas priorizam melhorias visuais e de interação que não dependem de backend, banco de dados ou API.
+ID	Melhoria sugerida	Tela ou parte do front-end afetada	Problema atual	Fonte da ideia	Mudança visual ou de interação sugerida	Benefício para o usuário	Esforço estimado	Risco ou suposição
+M1	Aplicar estilização CSS à tela de login	Tela inicial de login	O login possui estrutura em HTML, mas ainda não recebeu estilização CSS, podendo apresentar uma aparência pouco organizada e dificuldades de leitura.	S — Tela inicial desenvolvida em HTML, sem CSS aplicado.	Criar um layout organizado, com cores consistentes, campos bem definidos, espaçamentos adequados, botão de entrada destacado e melhor distribuição dos elementos.	Melhora a aparência, a legibilidade e a experiência de navegação, tornando a entrada no sistema mais intuitiva.	Baixo	Pressupõe que a equipe consiga aplicar propriedades básicas de CSS sem alterar o funcionamento atual do HTML.
+M2	Criar mensagens visuais de orientação e validação no formulário de login	Campos de e-mail e senha e botão de entrada	Existem campos para preenchimento, mas não há confirmação visual de erros ou orientações sobre informações obrigatórias.	HIPÓTESE — Uma interface com feedback visual pode facilitar o preenchimento correto dos formulários.	Apresentar mensagens como "Preencha o campo de e-mail" ou "Informe sua senha" quando o usuário tentar entrar sem preencher os campos. Utilizar cores e indicações visuais para destacar os campos que precisam de atenção.	Ajuda o estudante a identificar erros de preenchimento e compreender o que precisa corrigir antes de continuar.	Baixo	As mensagens serão apenas validações visuais no JavaScript, sem verificar credenciais reais ou realizar autenticação.
+M3	Melhorar a identificação visual dos tipos de usuário	Seleção demonstrativa do tipo de usuário na tela de login	A tela já apresenta a seleção do tipo de usuário, mas não há confirmação de que a diferenciação visual entre estudantes e administradores seja suficientemente clara.	T1 — O trabalho sobre votação eletrônica apresenta diferenciação de permissões entre usuários. HIPÓTESE — Uma identificação visual mais clara pode facilitar a compreensão dos perfis.	Destacar visualmente as opções "Estudante" e "Administrador", utilizando botões ou opções com estados selecionados bem definidos e pequenas descrições explicativas de cada perfil.	Facilita a identificação do perfil desejado e reduz possíveis dúvidas durante o acesso ao sistema.	Baixo	A seleção já existe, portanto a proposta consiste exclusivamente em melhorar sua apresentação visual. Não haverá controle real de permissões.
+
+Justificativa da ordem de recomendação
+1º lugar — M1: Aplicar estilização CSS à tela de login
+
+É a melhoria mais recomendada porque resolve uma limitação já confirmada no projeto: a ausência de CSS na versão inicial. Também permite à equipe desenvolver conhecimentos fundamentais de front-end e obter um resultado visual perceptível em pouco tempo.
+
+2º lugar — M2: Criar mensagens visuais de orientação e validação
+
+É uma melhoria simples, que aproveita os campos e o botão já existentes. Além de melhorar a experiência do usuário, permite praticar JavaScript básico sem precisar implementar autenticação real.
+
+3º lugar — M3: Melhorar a identificação visual dos tipos de usuário
+
+É uma melhoria interessante porque aproveita uma característica já presente no projeto e encontra referência no T1, que trabalha com diferenciação de permissões. Entretanto, sua contribuição é mais específica e depende da clareza visual que a seleção atual já apresenta.
+
+Observação final: As três propostas são independentes e podem ser implementadas sem modificar o backend, criar banco de dados ou desenvolver APIs. A ordem representa apenas uma recomendação técnica, não uma decisão pela equipe. A escolha final deve considerar o tempo disponível, a facilidade de implementação e os objetivos dos estudantes.

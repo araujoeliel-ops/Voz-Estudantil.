@@ -1,0 +1,49 @@
+Prompt para recomendação de melhorias no front-end
+Estudante: [Eliel da Silva Araújo]
+ Equipe: Voz Estudantil — [Eliel da Silva Araújo e Maria Eduarda Batista LopesEliel da Silva Araújo e Maria Eduarda Batista Lopes]
+ Projeto: Voz Estudantil
+ Data: 04/11/2026
+Papel da LLM
+Atue como especialista em experiência do usuário (UX), interface (UI) e desenvolvimento front-end, com conhecimento geral no domínio de plataformas digitais de participação e reivindicações estudantis.
+Sua análise é apenas consultiva. Use as informações fornecidas como evidência. Você pode apresentar uma possibilidade baseada em conhecimento geral, mas deve marcá-la como HIPÓTESE. Não invente telas, resultados de pesquisa ou opiniões de usuários.
+Informações do projeto
+Nome do projeto: Voz Estudantil.
+Problema que o sistema resolve: A dificuldade dos estudantes em apresentar reivindicações coletivas, dar visibilidade às necessidades da comunidade escolar e estabelecer uma comunicação organizada com a administração da instituição.
+Usuários principais: Alunos e administradores da instituição, como coordenadores, diretores e outros representantes autorizados.
+Telas que já existem: Uma tela inicial de login desenvolvida em HTML e protótipos visuais de referência para a aplicação. As demais telas estão planejadas, mas não foram confirmadas como implementadas.
+Funcionalidades visíveis nas telas: Na tela de login, existem campos de e-mail e senha, seleção demonstrativa do tipo de usuário, botão de entrada e links para cadastro e recuperação de senha. A autenticação ainda não é funcional. Os protótipos representam a proposta visual do sistema.
+Tecnologias do front-end: HTML e JavaScript básico. CSS ainda não foi aplicado à versão inicial do login.
+O que ainda não foi implementado: Autenticação real, cadastro funcional, publicação de reivindicações, sistema de apoios, comentários, ranking, pesquisa, painel administrativo e integração entre as telas.
+Trabalhos ou sistemas semelhantes pesquisados
+T1: Desenvolvimento de um Sistema de Votação Electrónica Baseado em Blockchain para o Núcleo de Estudantes de Direito da UEM, de Luís Titos Saiete (2025).
+O trabalho apresenta um sistema de votação eletrônica para estudantes universitários. Suas principais telas incluem autenticação de usuários, gerenciamento de eleições, gerenciamento de candidatos, cadastro de eleitores, registro de votos e visualização dos resultados.
+Entre suas funcionalidades estão a autenticação, a diferenciação de permissões entre usuários, o registro de votos e a consulta de resultados. Como ideias úteis para o Voz Estudantil, destacam-se a organização das interfaces, a separação entre estudantes e administradores e a apresentação clara de informações.
+T2: Não pesquisado.
+T3: Não pesquisado.
+Outros: Nenhum outro trabalho confirmado.
+Limitações da equipe
+Tempo disponível: Uma ou duas aulas para implementar uma pequena melhoria.
+Conhecimentos atuais: HTML e conhecimentos iniciais de JavaScript. CSS ainda não foi utilizado na versão inicial apresentada.
+Funcionalidades fora do escopo: Desenvolvimento de backend, banco de dados, API, autenticação real e implementação completa das funcionalidades planejadas.
+Tamanho máximo da melhoria: Pequena, possível de implementar em uma ou duas aulas.
+Regras obrigatórias
+Proponha exatamente três melhorias pequenas e diferentes.
+Considere somente o front-end: telas, organização visual, navegação, formulários, mensagens, acessibilidade e responsividade.
+Não proponha mudanças no banco de dados, no backend ou na API.
+Não apresente como melhoria algo que o projeto já possui.
+Relacione cada melhoria a uma evidência do sistema atual (S), dos trabalhos T1, T2, T3 etc. ou marque como HIPÓTESE.
+Não gere código e não redesenhe o sistema inteiro.
+Formato da resposta
+Apresente uma tabela com exatamente três linhas — M1, M2 e M3 — e estas colunas:
+melhoria sugerida;
+tela ou parte do front-end afetada;
+problema atual;
+fonte da ideia: S, T1, T2, T3 etc. ou HIPÓTESE;
+mudança visual ou de interação sugerida;
+benefício para o usuário;
+esforço estimado: baixo, médio ou alto;
+risco ou suposição.
+Ordene M1, M2 e M3 da mais para a menos recomendada e justifique brevemente a ordem.
+Não escolha uma melhoria em nome da equipe. A decisão final será tomada pelos estudantes após compararem todas as execuções.
+Resposta válida
+A resposta será válida somente se apresentar exatamente três melhorias e informar, para cada uma, a fonte da ideia, a tela afetada, a mudança sugerida, o benefício, o esforço e o risco ou suposição.
